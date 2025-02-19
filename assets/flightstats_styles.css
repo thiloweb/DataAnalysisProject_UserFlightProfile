@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    background-image: url('/assets/nubes.jpg');
+    opacity: 95%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.cardContainer {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    border:1px solid;
+    width: auto;
+    height: auto;
+    min-height: 100px;
+    background-color:aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#projectTitle {
+    font-size: 1.8em;
+}
+.PlotIMG {
+    display: block;
+    height: auto;
+    max-height: 400px;
+    width: auto;
+    padding: 5px;
+}
+#airplaneIcon {
+    display: block;
+    margin: auto;
+    width:100px;
+}
+#iconRow {
+    justify-self: flex-start;
+}
+
+/* RESPONSIVE DESIGN TO BE IMPLEMENTED */
